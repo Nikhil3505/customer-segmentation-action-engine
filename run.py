@@ -1,5 +1,5 @@
 """
-Unified CLI Entrypoint for YottaFlex AI Forward Deployed Engineer Challenge.
+Unified CLI Entrypoint for Customer Segmentation & Action Intelligence Platform.
 Provides commands for:
   - generate: Generate 11 relational tables + separate ground truth (starter or full scale)
   - audit: Run comprehensive Data Quality and Anomaly Benchmark Audit

@@ -1,8 +1,6 @@
 # Explainable Customer Segmentation & Action Intelligence Platform
 
-**Candidate:** Associate AI Forward Deployed Engineer  
-**Organization:** YottaFlex AI Recruitment Drive  
-**Challenge:** 72 Hours Code Challenge  
+> An enterprise-grade customer intelligence system that builds explainable customer segments from purchase, engagement, and service telemetry, and automates policy-guarded next-best actions.
 
 ---
 

@@ -1,5 +1,5 @@
 """
-Data Quality Auditor and Anomaly Detection Suite for YottaFlex AI challenge.
+Data Quality Auditor and Anomaly Detection Suite.
 Performs comprehensive checks:
 1. Primary Key Uniqueness
 2. Foreign Key Referential Integrity

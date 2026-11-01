@@ -1,5 +1,5 @@
 """
-Step 10: Reproducibility Verification Script for YottaFlex AI challenge.
+Step 10: Reproducibility Verification Script.
 Generates data twice using the exact same fixed seed (20261022) into two separate directories,
 computes SHA256 hashes and row counts across all tables, and proves 100% deterministic reproducibility.
 """

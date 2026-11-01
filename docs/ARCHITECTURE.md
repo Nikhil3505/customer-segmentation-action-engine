@@ -1,8 +1,7 @@
 # Technical Architecture & System Design Document
 
-**Role:** Associate AI Forward Deployed Engineer  
-**Organization:** YottaFlex AI Recruitment Drive  
 **System Name:** Explainable Customer Segmentation & Action Intelligence Platform  
+**Architecture Domain:** Forward Deployed Engineering, Customer Analytics, Policy Automation  
 
 ---
 

@@ -1,5 +1,5 @@
 """
-Deterministic Synthetic Data Generation Engine for YottaFlex AI challenge.
+Deterministic Synthetic Data Generation Engine.
 Produces 11 relational entities with strictly enforced foreign keys, realistic distributions,
 deterministic IDs, and reproducible seed behavior.
 Supports scalable generation (starter mode vs full 50k customers / 200k orders / 1M events).

@@ -1,5 +1,5 @@
 """
-Edge-case and deliberate anomaly injector for YottaFlex AI challenge.
+Edge-case and deliberate anomaly injector for Customer Intelligence Platform.
 Injects the 4 required negative scenarios with full traceability and separate ground-truth logging:
 1. Customer included in conflicting exclusive segments.
 2. Action violates consent (outreach delivered despite revoked/opted-out consent).
