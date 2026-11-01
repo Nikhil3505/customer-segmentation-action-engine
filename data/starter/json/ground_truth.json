@@ -1,0 +1,202 @@
+[
+  {
+    "anomaly_id": "ANOM-000001",
+    "issue_type": "conflicting_exclusive_segments",
+    "entity_type": "SegmentMembership",
+    "entity_id": "MEM-SEG-2026-000003-CUS-000001",
+    "customer_id": "CUS-000001",
+    "injected_details": "Customer CUS-000001 concurrently assigned to exclusive segments VIP_LOYALIST (SEG-2026-000001) and AT_RISK_DORMANT (SEG-2026-000003).",
+    "expected_behavior": "Exclusive segments must be mutually exclusive. Priority rank or rule resolution must prevent dual active assignment.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000002",
+    "issue_type": "conflicting_exclusive_segments",
+    "entity_type": "SegmentMembership",
+    "entity_id": "MEM-SEG-2026-000003-CUS-000002",
+    "customer_id": "CUS-000002",
+    "injected_details": "Customer CUS-000002 concurrently assigned to exclusive segments VIP_LOYALIST (SEG-2026-000001) and AT_RISK_DORMANT (SEG-2026-000003).",
+    "expected_behavior": "Exclusive segments must be mutually exclusive. Priority rank or rule resolution must prevent dual active assignment.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000003",
+    "issue_type": "conflicting_exclusive_segments",
+    "entity_type": "SegmentMembership",
+    "entity_id": "MEM-SEG-2026-000003-CUS-000003",
+    "customer_id": "CUS-000003",
+    "injected_details": "Customer CUS-000003 concurrently assigned to exclusive segments VIP_LOYALIST (SEG-2026-000001) and AT_RISK_DORMANT (SEG-2026-000003).",
+    "expected_behavior": "Exclusive segments must be mutually exclusive. Priority rank or rule resolution must prevent dual active assignment.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000004",
+    "issue_type": "conflicting_exclusive_segments",
+    "entity_type": "SegmentMembership",
+    "entity_id": "MEM-SEG-2026-000003-CUS-000004",
+    "customer_id": "CUS-000004",
+    "injected_details": "Customer CUS-000004 concurrently assigned to exclusive segments VIP_LOYALIST (SEG-2026-000001) and AT_RISK_DORMANT (SEG-2026-000003).",
+    "expected_behavior": "Exclusive segments must be mutually exclusive. Priority rank or rule resolution must prevent dual active assignment.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000005",
+    "issue_type": "conflicting_exclusive_segments",
+    "entity_type": "SegmentMembership",
+    "entity_id": "MEM-SEG-2026-000003-CUS-000006",
+    "customer_id": "CUS-000006",
+    "injected_details": "Customer CUS-000006 concurrently assigned to exclusive segments VIP_LOYALIST (SEG-2026-000001) and AT_RISK_DORMANT (SEG-2026-000003).",
+    "expected_behavior": "Exclusive segments must be mutually exclusive. Priority rank or rule resolution must prevent dual active assignment.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000006",
+    "issue_type": "action_violates_consent",
+    "entity_type": "ActionOutcome",
+    "entity_id": "OUT-2026-000001",
+    "customer_id": "CUS-000001",
+    "injected_details": "Action ACTN-2026-000001 dispatched (DELIVERED) to customer CUS-000001 whose EMAIL_MARKETING consent is REVOKED/OPTED_OUT.",
+    "expected_behavior": "Marketing action must be SUPPRESSED with suppression_reason='CONSENT_REVOKED'.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000007",
+    "issue_type": "action_violates_consent",
+    "entity_type": "ActionOutcome",
+    "entity_id": "OUT-2026-000003",
+    "customer_id": "CUS-000003",
+    "injected_details": "Action ACTN-2026-000001 dispatched (DELIVERED) to customer CUS-000003 whose EMAIL_MARKETING consent is REVOKED/OPTED_OUT.",
+    "expected_behavior": "Marketing action must be SUPPRESSED with suppression_reason='CONSENT_REVOKED'.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000008",
+    "issue_type": "action_violates_consent",
+    "entity_type": "ActionOutcome",
+    "entity_id": "OUT-2026-000004",
+    "customer_id": "CUS-000004",
+    "injected_details": "Action ACTN-2026-000001 dispatched (DELIVERED) to customer CUS-000004 whose EMAIL_MARKETING consent is REVOKED/OPTED_OUT.",
+    "expected_behavior": "Marketing action must be SUPPRESSED with suppression_reason='CONSENT_REVOKED'.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000009",
+    "issue_type": "action_violates_consent",
+    "entity_type": "ActionOutcome",
+    "entity_id": "OUT-2026-000005",
+    "customer_id": "CUS-000005",
+    "injected_details": "Action ACTN-2026-000004 dispatched (DELIVERED) to customer CUS-000005 whose EMAIL_MARKETING consent is REVOKED/OPTED_OUT.",
+    "expected_behavior": "Marketing action must be SUPPRESSED with suppression_reason='CONSENT_REVOKED'.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000010",
+    "issue_type": "action_violates_consent",
+    "entity_type": "ActionOutcome",
+    "entity_id": "OUT-2026-000011",
+    "customer_id": "CUS-000011",
+    "injected_details": "Action ACTN-2026-000001 dispatched (DELIVERED) to customer CUS-000011 whose EMAIL_MARKETING consent is REVOKED/OPTED_OUT.",
+    "expected_behavior": "Marketing action must be SUPPRESSED with suppression_reason='CONSENT_REVOKED'.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000011",
+    "issue_type": "return_not_netted_from_spend",
+    "entity_type": "Order",
+    "entity_id": "ORD-2026-000008",
+    "customer_id": "CUS-000986",
+    "injected_details": "Order ORD-2026-000008 has refund_amount=139.99, but net_amount was erroneously calculated as 151.19 (equal to total_amount 151.19) without netting refund.",
+    "expected_behavior": "net_amount must strictly equal total_amount (151.19) minus refund_amount (139.99) = 11.20.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000012",
+    "issue_type": "return_not_netted_from_spend",
+    "entity_type": "Order",
+    "entity_id": "ORD-2026-000017",
+    "customer_id": "CUS-000200",
+    "injected_details": "Order ORD-2026-000017 has refund_amount=526.50, but net_amount was erroneously calculated as 676.61 (equal to total_amount 676.61) without netting refund.",
+    "expected_behavior": "net_amount must strictly equal total_amount (676.61) minus refund_amount (526.50) = 150.11.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000013",
+    "issue_type": "return_not_netted_from_spend",
+    "entity_type": "Order",
+    "entity_id": "ORD-2026-000019",
+    "customer_id": "CUS-000019",
+    "injected_details": "Order ORD-2026-000019 has refund_amount=139.99, but net_amount was erroneously calculated as 151.19 (equal to total_amount 151.19) without netting refund.",
+    "expected_behavior": "net_amount must strictly equal total_amount (151.19) minus refund_amount (139.99) = 11.20.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000014",
+    "issue_type": "return_not_netted_from_spend",
+    "entity_type": "Order",
+    "entity_id": "ORD-2026-000031",
+    "customer_id": "CUS-000060",
+    "injected_details": "Order ORD-2026-000031 has refund_amount=116.99, but net_amount was erroneously calculated as 925.53 (equal to total_amount 925.53) without netting refund.",
+    "expected_behavior": "net_amount must strictly equal total_amount (925.53) minus refund_amount (116.99) = 808.54.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000015",
+    "issue_type": "return_not_netted_from_spend",
+    "entity_type": "Order",
+    "entity_id": "ORD-2026-000040",
+    "customer_id": "CUS-000093",
+    "injected_details": "Order ORD-2026-000040 has refund_amount=199.99, but net_amount was erroneously calculated as 298.61 (equal to total_amount 298.61) without netting refund.",
+    "expected_behavior": "net_amount must strictly equal total_amount (298.61) minus refund_amount (199.99) = 98.62.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000016",
+    "issue_type": "outcome_attributed_to_wrong_action",
+    "entity_type": "ActionOutcome",
+    "entity_id": "OUT-2026-000006",
+    "customer_id": "CUS-000006",
+    "injected_details": "Outcome OUT-2026-000006 for customer CUS-000006 with revenue $49.99 was misattributed to action ACTN-2026-000002 instead of genuine campaign ACTN-2026-000001.",
+    "expected_behavior": "Outcome must attribute conversions only to the specific recommended and dispatched action.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000017",
+    "issue_type": "outcome_attributed_to_wrong_action",
+    "entity_type": "ActionOutcome",
+    "entity_id": "OUT-2026-000029",
+    "customer_id": "CUS-000029",
+    "injected_details": "Outcome OUT-2026-000029 for customer CUS-000029 with revenue $149.99 was misattributed to action ACTN-2026-000002 instead of genuine campaign ACTN-2026-000001.",
+    "expected_behavior": "Outcome must attribute conversions only to the specific recommended and dispatched action.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000018",
+    "issue_type": "outcome_attributed_to_wrong_action",
+    "entity_type": "ActionOutcome",
+    "entity_id": "OUT-2026-000034",
+    "customer_id": "CUS-000034",
+    "injected_details": "Outcome OUT-2026-000034 for customer CUS-000034 with revenue $149.99 was misattributed to action ACTN-2026-000002 instead of genuine campaign ACTN-2026-000001.",
+    "expected_behavior": "Outcome must attribute conversions only to the specific recommended and dispatched action.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000019",
+    "issue_type": "outcome_attributed_to_wrong_action",
+    "entity_type": "ActionOutcome",
+    "entity_id": "OUT-2026-000037",
+    "customer_id": "CUS-000037",
+    "injected_details": "Outcome OUT-2026-000037 for customer CUS-000037 with revenue $49.99 was misattributed to action ACTN-2026-000001 instead of genuine campaign ACTN-2026-000004.",
+    "expected_behavior": "Outcome must attribute conversions only to the specific recommended and dispatched action.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  },
+  {
+    "anomaly_id": "ANOM-000020",
+    "issue_type": "outcome_attributed_to_wrong_action",
+    "entity_type": "ActionOutcome",
+    "entity_id": "OUT-2026-000054",
+    "customer_id": "CUS-000054",
+    "injected_details": "Outcome OUT-2026-000054 for customer CUS-000054 with revenue $149.99 was misattributed to action ACTN-2026-000002 instead of genuine campaign ACTN-2026-000001.",
+    "expected_behavior": "Outcome must attribute conversions only to the specific recommended and dispatched action.",
+    "created_at": "2026-10-31 23:59:59+00:00"
+  }
+]

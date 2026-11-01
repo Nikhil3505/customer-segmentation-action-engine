@@ -43,3 +43,7 @@ data/full/
 data/reproducibility_run1/
 data/reproducibility_run2/
 *.db-journal
+
+# Prompts & Candidate guideline PDFs (do not publish company recruitment prompts)
+*.pdf
+

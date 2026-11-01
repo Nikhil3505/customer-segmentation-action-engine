@@ -1,0 +1,222 @@
+[
+  {
+    "product_id": "PRD-000001",
+    "sku": "SKU-ELEC-1001",
+    "name": "UltraHD Smart Monitor 32-inch",
+    "category": "Electronics",
+    "sub_category": "Displays",
+    "unit_price": "399.99",
+    "cost_price": "220.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000002",
+    "sku": "SKU-ELEC-1002",
+    "name": "Wireless ANC Headphones Pro",
+    "category": "Electronics",
+    "sub_category": "Audio",
+    "unit_price": "199.99",
+    "cost_price": "95.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000003",
+    "sku": "SKU-ELEC-1003",
+    "name": "Mechanical Ergonomic Keyboard",
+    "category": "Electronics",
+    "sub_category": "Peripherals",
+    "unit_price": "129.99",
+    "cost_price": "55.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000004",
+    "sku": "SKU-ELEC-1004",
+    "name": "Precision Wireless Mouse",
+    "category": "Electronics",
+    "sub_category": "Peripherals",
+    "unit_price": "79.99",
+    "cost_price": "30.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000005",
+    "sku": "SKU-SAAS-2001",
+    "name": "Enterprise Analytics Cloud Annual",
+    "category": "SaaS",
+    "sub_category": "Subscriptions",
+    "unit_price": "1200.00",
+    "cost_price": "150.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000006",
+    "sku": "SKU-SAAS-2002",
+    "name": "Pro Workflow Automation Monthly",
+    "category": "SaaS",
+    "sub_category": "Subscriptions",
+    "unit_price": "49.99",
+    "cost_price": "8.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000007",
+    "sku": "SKU-SAAS-2003",
+    "name": "AI Copilot Developer Seat Annual",
+    "category": "SaaS",
+    "sub_category": "Subscriptions",
+    "unit_price": "240.00",
+    "cost_price": "40.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000008",
+    "sku": "SKU-APP-3001",
+    "name": "Water-Resistant Technical Jacket",
+    "category": "Apparel",
+    "sub_category": "Outerwear",
+    "unit_price": "180.00",
+    "cost_price": "70.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000009",
+    "sku": "SKU-APP-3002",
+    "name": "Merino Wool Commuter Hoodie",
+    "category": "Apparel",
+    "sub_category": "Tops",
+    "unit_price": "110.00",
+    "cost_price": "42.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000010",
+    "sku": "SKU-APP-3003",
+    "name": "Everyday Flex Chino Trousers",
+    "category": "Apparel",
+    "sub_category": "Bottoms",
+    "unit_price": "85.00",
+    "cost_price": "32.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000011",
+    "sku": "SKU-HOME-4001",
+    "name": "Standing Desk Dual-Motor Frame",
+    "category": "Home",
+    "sub_category": "Office Furniture",
+    "unit_price": "450.00",
+    "cost_price": "230.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000012",
+    "sku": "SKU-HOME-4002",
+    "name": "Ergonomic Lumbar Mesh Chair",
+    "category": "Home",
+    "sub_category": "Office Furniture",
+    "unit_price": "320.00",
+    "cost_price": "140.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000013",
+    "sku": "SKU-HOME-4003",
+    "name": "Dimmable LED Monitor Lightbar",
+    "category": "Home",
+    "sub_category": "Lighting",
+    "unit_price": "59.99",
+    "cost_price": "22.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000014",
+    "sku": "SKU-ACC-5001",
+    "name": "USB-C Multiport Thunderbolt Hub",
+    "category": "Accessories",
+    "sub_category": "Adapters",
+    "unit_price": "89.99",
+    "cost_price": "35.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000015",
+    "sku": "SKU-ACC-5002",
+    "name": "Magnetic Vegan Leather Desk Mat",
+    "category": "Accessories",
+    "sub_category": "Desk Mats",
+    "unit_price": "39.99",
+    "cost_price": "12.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000016",
+    "sku": "SKU-ACC-5003",
+    "name": "Braided Fast-Charging Cable 2M",
+    "category": "Accessories",
+    "sub_category": "Cables",
+    "unit_price": "19.99",
+    "cost_price": "4.50",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000017",
+    "sku": "SKU-ELEC-1005",
+    "name": "4K HDR Streaming Webcam",
+    "category": "Electronics",
+    "sub_category": "Cameras",
+    "unit_price": "139.99",
+    "cost_price": "60.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000018",
+    "sku": "SKU-HOME-4004",
+    "name": "Smart Temperature Heated Mug",
+    "category": "Home",
+    "sub_category": "Drinkware",
+    "unit_price": "99.99",
+    "cost_price": "45.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000019",
+    "sku": "SKU-SAAS-2004",
+    "name": "Security & Compliance Vault Add-on",
+    "category": "SaaS",
+    "sub_category": "Security",
+    "unit_price": "360.00",
+    "cost_price": "60.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "product_id": "PRD-000020",
+    "sku": "SKU-ACC-5004",
+    "name": "Compact Aluminium Laptop Stand",
+    "category": "Accessories",
+    "sub_category": "Stands",
+    "unit_price": "49.99",
+    "cost_price": "18.00",
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  }
+]

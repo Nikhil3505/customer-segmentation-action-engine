@@ -1,0 +1,6 @@
+rule_id,segment_code,segment_name,criteria_description,criteria_json,is_exclusive,priority_rank,is_active,created_at
+SEG-2026-000001,VIP_LOYALIST,VIP Loyalists,High spenders with frequent orders and high satisfaction.,"{""recency_days_max"": 45, ""frequency_min"": 4, ""monetary_min"": 1000.0, ""csat_min"": 3.5}",True,1,True,2024-01-01T00:00:00+00:00
+SEG-2026-000002,SERVICE_HEAVY_DISSATISFIED,Service-Heavy / Dissatisfied,"Accounts with high support friction, elevated service costs, or poor CSAT.","{""service_cost_min"": 150.0, ""has_open_critical"": true, ""csat_max"": 2}",True,2,True,2024-01-01T00:00:00+00:00
+SEG-2026-000003,AT_RISK_DORMANT,At-Risk / Dormant,Past buyers with no recent orders and dwindling digital engagement.,"{""recency_days_min"": 90, ""frequency_min"": 1, ""engagement_max"": 15.0}",True,3,True,2024-01-01T00:00:00+00:00
+SEG-2026-000004,HIGH_POTENTIAL,High-Potential Growth,Promising accounts with moderate spend and active digital engagement.,"{""recency_days_max"": 60, ""frequency_range"": [1, 3], ""monetary_min"": 250.0, ""engagement_min"": 40.0}",False,4,True,2024-01-01T00:00:00+00:00
+SEG-2026-000005,NEW_ONBOARDING,New Onboarding,Recent signups within the last 30 days starting their lifecycle journey.,"{""days_since_signup_max"": 30, ""frequency_max"": 1}",True,5,True,2024-01-01T00:00:00+00:00

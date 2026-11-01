@@ -1,0 +1,52 @@
+[
+  {
+    "action_id": "ACTN-2026-000001",
+    "action_code": "VIP_CONCIERGE_REWARD",
+    "action_name": "VIP Executive Concierge & Reward Gift",
+    "target_segment_code": "VIP_LOYALIST",
+    "channel": "EMAIL",
+    "suppression_rules_json": "{\"required_consent\": \"EMAIL_MARKETING\", \"cooldown_days\": 30, \"suppress_if_open_critical\": true}",
+    "description": "Provides dedicated account manager access and premium tier perks.",
+    "is_active": true
+  },
+  {
+    "action_id": "ACTN-2026-000002",
+    "action_code": "PROACTIVE_SUPPORT_ESCALATION",
+    "action_name": "Proactive Support Manager Outreach",
+    "target_segment_code": "SERVICE_HEAVY_DISSATISFIED",
+    "channel": "PHONE",
+    "suppression_rules_json": "{\"required_consent\": null, \"cooldown_days\": 7, \"priority\": \"HIGH\"}",
+    "description": "Direct senior agent intervention to resolve high friction support issues.",
+    "is_active": true
+  },
+  {
+    "action_id": "ACTN-2026-000003",
+    "action_code": "WINBACK_DISCOUNT_OFFER",
+    "action_name": "Win-Back Re-activation Incentive",
+    "target_segment_code": "AT_RISK_DORMANT",
+    "channel": "EMAIL",
+    "suppression_rules_json": "{\"required_consent\": \"EMAIL_MARKETING\", \"cooldown_days\": 14, \"suppress_if_open_critical\": true}",
+    "description": "Sends a personalized 25% discount voucher to re-engage lapsed customers.",
+    "is_active": true
+  },
+  {
+    "action_id": "ACTN-2026-000004",
+    "action_code": "CROSS_SELL_RECOMMENDATION",
+    "action_name": "Intelligent Complementary Cross-Sell",
+    "target_segment_code": "HIGH_POTENTIAL",
+    "channel": "EMAIL",
+    "suppression_rules_json": "{\"required_consent\": \"EMAIL_MARKETING\", \"cooldown_days\": 10, \"suppress_if_open_critical\": false}",
+    "description": "Recommends tailored accessories or software extensions based on prior purchases.",
+    "is_active": true
+  },
+  {
+    "action_id": "ACTN-2026-000005",
+    "action_code": "PRODUCT_ONBOARDING_SERIES",
+    "action_name": "Lifecycle Welcome & Guided Onboarding",
+    "target_segment_code": "NEW_ONBOARDING",
+    "channel": "EMAIL",
+    "suppression_rules_json": "{\"required_consent\": \"EMAIL_MARKETING\", \"cooldown_days\": 5, \"suppress_if_open_critical\": false}",
+    "description": "Educational step-by-step product walkthroughs to drive initial product adoption.",
+    "is_active": true
+  }
+]

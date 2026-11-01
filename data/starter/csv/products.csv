@@ -1,0 +1,21 @@
+product_id,sku,name,category,sub_category,unit_price,cost_price,is_active,created_at
+PRD-000001,SKU-ELEC-1001,UltraHD Smart Monitor 32-inch,Electronics,Displays,399.99,220.0,True,2024-01-01T00:00:00+00:00
+PRD-000002,SKU-ELEC-1002,Wireless ANC Headphones Pro,Electronics,Audio,199.99,95.0,True,2024-01-01T00:00:00+00:00
+PRD-000003,SKU-ELEC-1003,Mechanical Ergonomic Keyboard,Electronics,Peripherals,129.99,55.0,True,2024-01-01T00:00:00+00:00
+PRD-000004,SKU-ELEC-1004,Precision Wireless Mouse,Electronics,Peripherals,79.99,30.0,True,2024-01-01T00:00:00+00:00
+PRD-000005,SKU-SAAS-2001,Enterprise Analytics Cloud Annual,SaaS,Subscriptions,1200.0,150.0,True,2024-01-01T00:00:00+00:00
+PRD-000006,SKU-SAAS-2002,Pro Workflow Automation Monthly,SaaS,Subscriptions,49.99,8.0,True,2024-01-01T00:00:00+00:00
+PRD-000007,SKU-SAAS-2003,AI Copilot Developer Seat Annual,SaaS,Subscriptions,240.0,40.0,True,2024-01-01T00:00:00+00:00
+PRD-000008,SKU-APP-3001,Water-Resistant Technical Jacket,Apparel,Outerwear,180.0,70.0,True,2024-01-01T00:00:00+00:00
+PRD-000009,SKU-APP-3002,Merino Wool Commuter Hoodie,Apparel,Tops,110.0,42.0,True,2024-01-01T00:00:00+00:00
+PRD-000010,SKU-APP-3003,Everyday Flex Chino Trousers,Apparel,Bottoms,85.0,32.0,True,2024-01-01T00:00:00+00:00
+PRD-000011,SKU-HOME-4001,Standing Desk Dual-Motor Frame,Home,Office Furniture,450.0,230.0,True,2024-01-01T00:00:00+00:00
+PRD-000012,SKU-HOME-4002,Ergonomic Lumbar Mesh Chair,Home,Office Furniture,320.0,140.0,True,2024-01-01T00:00:00+00:00
+PRD-000013,SKU-HOME-4003,Dimmable LED Monitor Lightbar,Home,Lighting,59.99,22.0,True,2024-01-01T00:00:00+00:00
+PRD-000014,SKU-ACC-5001,USB-C Multiport Thunderbolt Hub,Accessories,Adapters,89.99,35.0,True,2024-01-01T00:00:00+00:00
+PRD-000015,SKU-ACC-5002,Magnetic Vegan Leather Desk Mat,Accessories,Desk Mats,39.99,12.0,True,2024-01-01T00:00:00+00:00
+PRD-000016,SKU-ACC-5003,Braided Fast-Charging Cable 2M,Accessories,Cables,19.99,4.5,True,2024-01-01T00:00:00+00:00
+PRD-000017,SKU-ELEC-1005,4K HDR Streaming Webcam,Electronics,Cameras,139.99,60.0,True,2024-01-01T00:00:00+00:00
+PRD-000018,SKU-HOME-4004,Smart Temperature Heated Mug,Home,Drinkware,99.99,45.0,True,2024-01-01T00:00:00+00:00
+PRD-000019,SKU-SAAS-2004,Security & Compliance Vault Add-on,SaaS,Security,360.0,60.0,True,2024-01-01T00:00:00+00:00
+PRD-000020,SKU-ACC-5004,Compact Aluminium Laptop Stand,Accessories,Stands,49.99,18.0,True,2024-01-01T00:00:00+00:00

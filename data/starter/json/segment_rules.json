@@ -1,0 +1,57 @@
+[
+  {
+    "rule_id": "SEG-2026-000001",
+    "segment_code": "VIP_LOYALIST",
+    "segment_name": "VIP Loyalists",
+    "criteria_description": "High spenders with frequent orders and high satisfaction.",
+    "criteria_json": "{\"recency_days_max\": 45, \"frequency_min\": 4, \"monetary_min\": 1000.0, \"csat_min\": 3.5}",
+    "is_exclusive": true,
+    "priority_rank": 1,
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "rule_id": "SEG-2026-000002",
+    "segment_code": "SERVICE_HEAVY_DISSATISFIED",
+    "segment_name": "Service-Heavy / Dissatisfied",
+    "criteria_description": "Accounts with high support friction, elevated service costs, or poor CSAT.",
+    "criteria_json": "{\"service_cost_min\": 150.0, \"has_open_critical\": true, \"csat_max\": 2}",
+    "is_exclusive": true,
+    "priority_rank": 2,
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "rule_id": "SEG-2026-000003",
+    "segment_code": "AT_RISK_DORMANT",
+    "segment_name": "At-Risk / Dormant",
+    "criteria_description": "Past buyers with no recent orders and dwindling digital engagement.",
+    "criteria_json": "{\"recency_days_min\": 90, \"frequency_min\": 1, \"engagement_max\": 15.0}",
+    "is_exclusive": true,
+    "priority_rank": 3,
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "rule_id": "SEG-2026-000004",
+    "segment_code": "HIGH_POTENTIAL",
+    "segment_name": "High-Potential Growth",
+    "criteria_description": "Promising accounts with moderate spend and active digital engagement.",
+    "criteria_json": "{\"recency_days_max\": 60, \"frequency_range\": [1, 3], \"monetary_min\": 250.0, \"engagement_min\": 40.0}",
+    "is_exclusive": false,
+    "priority_rank": 4,
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "rule_id": "SEG-2026-000005",
+    "segment_code": "NEW_ONBOARDING",
+    "segment_name": "New Onboarding",
+    "criteria_description": "Recent signups within the last 30 days starting their lifecycle journey.",
+    "criteria_json": "{\"days_since_signup_max\": 30, \"frequency_max\": 1}",
+    "is_exclusive": true,
+    "priority_rank": 5,
+    "is_active": true,
+    "created_at": "2024-01-01T00:00:00+00:00"
+  }
+]
